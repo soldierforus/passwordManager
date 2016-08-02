@@ -1,0 +1,16 @@
+{
+  "name": "passwordManager",
+  "version": "1.0.0",
+  "description": "Manage Passwords Locally",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node passwordManager.js"
+  },
+  "author": "Travis Bennett",
+  "license": "MIT",
+  "dependencies": {
+    "node-persist": "0.0.6",
+    "yargs":"^3.15.0"
+  }
+}
